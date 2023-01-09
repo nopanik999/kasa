@@ -6,10 +6,34 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.6.1",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-sort-export-all": "1.1.1",
+    "husky": "^4.3.8",
+    "jest": "^27.5.1",
+    "lerna": "^3.22.1",
+    "lint-staged": "^12.4.2",
+    "lodash": "^4.17.21",
+    "npm-audit-resolver": "^2.2.1",
+    "prettier": "2.2.1",
+    "ts-node": "^10.2.1",
+    "typescript": "~4.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +58,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "^14.20.1",
+    "yarn": "^1.22.5"
   }
 }
